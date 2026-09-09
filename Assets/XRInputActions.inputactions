@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "cc5642c6-1bca-4ea7-aa71-21069c7f6862",
+            "actions": [
+                {
+                    "name": "SpawnObject",
+                    "type": "Button",
+                    "id": "19d268df-9201-4c05-8552-26ac4701a678",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "TeleportToggle",
+                    "type": "Button",
+                    "id": "8735c68b-16da-4f19-a7ac-93ea7a8442c3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "efa622e8-60d5-4ae3-9e8b-d7a1f7043fb9",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ff93d02-0510-403f-8018-4e63a55c0bf4",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TeleportToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
